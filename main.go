@@ -1,8 +1,8 @@
 package main
 
 import (
-	"cliProject/cmd"
-	"cliProject/internal/logs"
+	"./cmd"
+	"./internal/logs"
 )
 
 func main() {

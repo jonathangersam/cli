@@ -1,7 +1,7 @@
 package proc
 
-import "cliProject/internal/logs"
+import "../../internal/logs"
 
-func GetProecees() {
+func GetProcess() {
 	logs.Logger.Infof("n process")
 }

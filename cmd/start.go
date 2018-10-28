@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"cliProject/internal/logs"
+	"../internal/logs"
 	"github.com/spf13/cobra"
 )
 
@@ -20,7 +20,7 @@ var startCmd = &cobra.Command{
 }
 
 func init() {
-	logs.NewLogger()
+	logs.NewLogger() // FIXME: You get a Logger from function NewLogger(), now you need to use it.
 	rootCmd.AddCommand(startCmd)
 	startCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"cliProject/internal/logs"
+	"../internal/logs"
 	"fmt"
 
 	"github.com/spf13/cobra"
